@@ -13,7 +13,7 @@ The DRC Simulator is contained within the `drcsim` package.  Follow the [[DRC/In
 === Using DRCSim
 
  * [[DRC/UserGuide | DRCSim user guide]]
- * Because DRCSim builds upon Gazebo, new DRCSim users should start with the [[Tutorials | Gazebo tutorials]].  
+ * Because DRCSim builds upon Gazebo, new DRCSim users should start with the [[Gazebo Tutorials|http://gazebosim.org/tutorials]].  
  * [[DRC/Tutorials | DRCSim-specific tutorials]].
 
 === Releases and plans
