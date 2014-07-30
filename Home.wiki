@@ -3,7 +3,8 @@
 
 Gazebo is the basis for the DRC Simulator, which is used by participants in the DRC program, especially the Virtual Robotics Challenge (VRC), a cloud-based simulation competition scheduled for June 2013.  Building upon Gazebo, the DRC Simulator, or DRCSim, comprises additional worlds, models, and code that is specifically required to simulate the DRC domain.
 
-[[File:DRCsim_SOA2.png|thumb|center|x400px|The Atlas robot with a utility vehicle]]
+{{https://bitbucket.org/repo/bae8oa/images/3956649871-645px-DRCsim_SOA2.png|645px-DRCsim_SOA2.png}}
+
 
 === Installation
 
