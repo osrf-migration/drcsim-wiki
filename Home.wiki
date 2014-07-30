@@ -1,32 +1,31 @@
-DARPA Robotics Challenge (DRC) Simulator
-=
+== DARPA Robotics Challenge (DRC) Simulator
+
 
 Gazebo is the basis for the DRC Simulator, which is used by participants in the DRC program, especially the Virtual Robotics Challenge (VRC), a cloud-based simulation competition scheduled for June 2013.  Building upon Gazebo, the DRC Simulator, or DRCSim, comprises additional worlds, models, and code that is specifically required to simulate the DRC domain.
 
 [[File:DRCsim_SOA2.png|thumb|center|x400px|The Atlas robot with a utility vehicle]]
 
-Installation
-==
+=== Installation
+
 The DRC Simulator is contained within the `drcsim` package.  Follow the [[DRC/Install | installation instructions]] to install it.
 
+=== Using DRCSim
 
-Using DRCSim
-==
  * [[DRC/UserGuide | DRCSim user guide]]
  * Because DRCSim builds upon Gazebo, new DRCSim users should start with the [[Tutorials | Gazebo tutorials]].  
  * [[DRC/Tutorials | DRCSim-specific tutorials]].
 
-Releases and plans
-==
+=== Releases and plans
+
  * [[DRC/Change log | DRCSim change log]]
  * [[DRC/Roadmap|DRCSim roadmap]]
  * [[DRC/ReleaseSchedule|DRCSim Release schedule]]
 
-Sensor suite
-==
+=== Sensor suite
+
  * The DRC Robot will carry a MultiSense SL sensor head.  Consult the [[Media:MultiSense_SL.PDF | datasheet]].  Software simulation of that sensor head is forthcoming.
 
 
-Miscellaneous
-==
+=== Miscellaneous
+
 * [[DRC/DRCKickoffLaptops|How to prepare a laptop for use at the DRC Kickoff]]
