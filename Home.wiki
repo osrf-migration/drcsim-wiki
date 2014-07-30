@@ -1,35 +1,32 @@
-= Welcome =
+DARPA Robotics Challenge (DRC) Simulator
+=
 
-Welcome to your wiki! This is the default page we've installed for your convenience. Go ahead and edit it.
+Gazebo is the basis for the DRC Simulator, which is used by participants in the DRC program, especially the Virtual Robotics Challenge (VRC), a cloud-based simulation competition scheduled for June 2013.  Building upon Gazebo, the DRC Simulator, or DRCSim, comprises additional worlds, models, and code that is specifically required to simulate the DRC domain.
 
-== Wiki features ==
+[[File:DRCsim_SOA2.png|thumb|center|x400px|The Atlas robot with a utility vehicle]]
 
-This wiki uses the [[http://www.wikicreole.org/|Creole]] syntax, and is fully compatible with the 1.0 specification.
+Installation
+==
+The DRC Simulator is contained within the `drcsim` package.  Follow the [[DRC/Install | installation instructions]] to install it.
 
-The wiki itself is actually a mercurial repository, which means you can clone it, edit it locally/offline, add images or any other file type, and push it back to us. It will be live immediately.
 
-Go ahead and try:
+Using DRCSim
+==
+ * [[DRC/UserGuide | DRCSim user guide]]
+ * Because DRCSim builds upon Gazebo, new DRCSim users should start with the [[Tutorials | Gazebo tutorials]].  
+ * [[DRC/Tutorials | DRCSim-specific tutorials]].
 
-{{{
-$ hg clone https://bitbucket.org/osrf/drcsim/wiki
-}}}
+Releases and plans
+==
+ * [[DRC/Change log | DRCSim change log]]
+ * [[DRC/Roadmap|DRCSim roadmap]]
+ * [[DRC/ReleaseSchedule|DRCSim Release schedule]]
 
-Wiki pages are normal files, with the .wiki extension. You can edit them locally, as well as creating new ones.
+Sensor suite
+==
+ * The DRC Robot will carry a MultiSense SL sensor head.  Consult the [[Media:MultiSense_SL.PDF | datasheet]].  Software simulation of that sensor head is forthcoming.
 
-== Syntax highlighting ==
 
-You can also highlight snippets of text, we use the excellent [[http://www.pygments.org/|Pygments]] library.
-
-Here's an example of some Python code:
-
-{{{
-#!python
-
-def wiki_rocks(text):
-    formatter = lambda t: "funky"+t
-    return formatter(text)
-}}}
-
-You can check out the source of this page to see how that's done, and make sure to bookmark [[http://pygments.org/docs/lexers/|the vast library of Pygment lexers]], we accept the 'short name' or the 'mimetype' of anything in there.
-
-Have fun!
+Miscellaneous
+==
+* [[DRC/DRCKickoffLaptops|How to prepare a laptop for use at the DRC Kickoff]]
