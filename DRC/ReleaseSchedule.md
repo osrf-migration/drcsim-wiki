@@ -6,9 +6,7 @@ This document covers the initial plan of the DRCSim team's support for ROS and U
 ## Ubuntu and ROS calendar 
 In order to fully understand the background behind decisions on releasing and supported platforms for DRCSim, it is useful to know the expected calendar for Ubuntu and ROS distributions. 
 
-[[Image:DRC_release_schedule.png|left|thumb|700px|Releasing calendar for ROS and Ubuntu]]
-
-<div style="clear: both"></div>
+![700px-DRC_release_schedule.png](https://bitbucket.org/repo/bae8oa/images/2333060937-700px-DRC_release_schedule.png)
 
 ## DRCSim calendar
 
