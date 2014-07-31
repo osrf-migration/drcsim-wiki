@@ -13,7 +13,7 @@ This page explains how to install the DRC Simulator.
 
 If this is your first time installing the simulator, there's some system configuration that you need to do.
 
-1. Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow the [https://help.ubuntu.com/community/Repositories/Ubuntu Ubuntu guide] for instructions on doing this. 
+1. Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow the [Ubuntu guide](https://help.ubuntu.com/community/Repositories/Ubuntu Ubuntu guide) for instructions on doing this. 
 
 1. Setup your computer to accept software from packages.osrfoundation.org and packages.ros.org (the DRC Simulator uses some parts of ROS).
 
