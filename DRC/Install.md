@@ -7,7 +7,7 @@ This page explains how to install the DRC Simulator.
 
 ### Ubuntu Linux
 
-'''Note: as of drcsim 2.2.0, binary packages are available for 64-bit systems only.  A 32-bit version is still available as source, but 64-bit is required to run the BDI walking controller.'''
+**Note:** as of drcsim 2.2.0, binary packages are available for 64-bit systems only.  A 32-bit version is still available as source, but 64-bit is required to run the BDI walking controller.
 
 #### First time setup
 
@@ -22,10 +22,11 @@ If this is your first time installing the simulator, there's some system configu
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
         sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu precise main" > /etc/apt/sources.list.d/drc-latest.list'
 
-   **Ubuntu 12.10 (quantal)** (since drcsim-2.2)
+    **Ubuntu 14.04 (trusty)**
 
-        sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu quantal main" > /etc/apt/sources.list.d/ros-latest.list'
-        sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu quantal main" > /etc/apt/sources.list.d/drc-latest.list'
+        sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+        sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu trusty main" > /etc/apt/sources.list.d/drc-latest.list'
+
 
 1. Retrieve and install the keys for the ROS and DRC repositories.
 
