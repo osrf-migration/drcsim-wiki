@@ -39,13 +39,13 @@ If this is your first time installing the simulator, there's some system configu
 
 1. Install drcsim package:
 
-  A. In the case of using Ubuntu/Precise, choose between ROS/Groovy or ROS/Hydro:
+    A. In the case of using Ubuntu/Precise, choose between ROS/Groovy or ROS/Hydro:
 
         sudo apt-get install drcsim-groovy
         ... or ...
         sudo apt-get install drcsim-hydro
 
-  B. In the case of using Ubuntu/Quantal or Ubuntu/Raring use just drcsim package name:
+    B. In the case of using Ubuntu/Trusty use just drcsim package name:
 
         sudo apt-get install drcsim
 
@@ -77,9 +77,9 @@ Now that everything is installed, here's how to run it:
         # OLDER VERSIONS ONLY
         source /usr/share/drcsim-1.2/setup.sh
 
-  If you get "Warning: failed to find Gazebo's setup.sh.  You will need to source it manually.", do as described [https://bitbucket.org/osrf/drcsim/issue/51/drcsim-110-setupsh-wont-load-gazebo-13 here]
+  If you get "Warning: failed to find Gazebo's setup.sh.  You will need to source it manually.", do as described [ here](https://bitbucket.org/osrf/drcsim/issue/51/drcsim-110-setupsh-wont-load-gazebo-13)
 
-1. To run the DRC Simulator, try the default [http://ros.org/wiki/roslaunch launch] file:
+1. To run the DRC Simulator, try the default [launch](http://ros.org/wiki/roslaunch launch) file:
 
         roslaunch drcsim_gazebo atlas.launch
 
@@ -108,14 +108,14 @@ There are several ways of getting a working gazebo installation to use with drcs
 1. Install using apt-get from the osrf repository
 2. Install gazebo from source
 
-Both are very well documented in the [http://gazebosim.org/wiki/Install Gazebo Installation] page.
+Both are very well documented in the [ Gazebo Installation](http://gazebosim.org/wiki/Install) page.
 
 ### Ubuntu and ROS Groovy
 
 Here we'll explain how to build drcsim from source. You will need a working installation of gazebo, explained in the previous section.
 
 
-1. Configure your system to install packages from [http://www.ros.org/wiki/groovy/Installation/Ubuntu ROS groovy].  E.g., on precise:
+1. Configure your system to install packages from [ROS groovy](http://www.ros.org/wiki/groovy/Installation/Ubuntu).  E.g., on precise:
 
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
         wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
