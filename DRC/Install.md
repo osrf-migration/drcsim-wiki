@@ -83,11 +83,11 @@ Now that everything is installed, here's how to run it:
 
         roslaunch drcsim_gazebo atlas.launch
 
-    '''For drcsim < 3.1.0''': The package and launch file had a different name:
+    **For drcsim < 3.1.0:** The package and launch file had a different name:
 
         roslaunch atlas_utils atlas.launch
 
-    '''For drcsim < 1.3.0''': The package and launch file had a different name:
+    **For drcsim < 1.3.0:** The package and launch file had a different name:
 
         # OLDER VERSIONS ONLY
         roslaunch drc_robot_utils drc_robot.launch
@@ -103,12 +103,8 @@ Please help us by contributing patches and configuration to build packages on yo
 Compiling from source
 -
 ### Prerequisite: Install Gazebo
-There are several ways of getting a working gazebo installation to use with drcsim from source installation:
 
-1. Install using apt-get from the osrf repository
-2. Install gazebo from source
-
-Both are very well documented in the [ Gazebo Installation](http://gazebosim.org/wiki/Install) page.
+Refer to the [Gazebo install instructions](http://gazebosim.org/install).
 
 ### Ubuntu and ROS Groovy
 
