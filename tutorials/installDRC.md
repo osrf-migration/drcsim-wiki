@@ -7,7 +7,7 @@ This page explains how to install the DRC Simulator.
 
 ### Ubuntu Linux
 
-'''Note: as of drcsim 2.2.0, binary packages are available for 64-bit systems only.  A 32-bit version is still available as source, but 64-bit is required to run the BDI walking controller.'''
+**Note: as of drcsim 2.2.0, binary packages are available for 64-bit systems only.  A 32-bit version is still available as source, but 64-bit is required to run the BDI walking controller.**
 
 #### First time setup
 
@@ -71,7 +71,7 @@ Now that everything is installed, here's how to run it:
         source /opt/ros/[Your ROS Distro Name]/setup.bash   # this is necessary for drcsim 3.1.0 and later
         source /usr/share/drcsim/setup.sh
 
-    '''For drcsim < 1.3.0''': you need to source the setup file from a versioned directory.  E.g., for drcsim 1.2.X, you would do this:
+    **For drcsim < 1.3.0**: you need to source the setup file from a versioned directory.  E.g., for drcsim 1.2.X, you would do this:
 
         # OLDER VERSIONS ONLY
         source /usr/share/drcsim-1.2/setup.sh
@@ -82,11 +82,11 @@ Now that everything is installed, here's how to run it:
 
         roslaunch drcsim_gazebo atlas.launch
 
-    '''For drcsim < 3.1.0''': The package and launch file had a different name:
+    **For drcsim < 3.1.0**: The package and launch file had a different name:
 
         roslaunch atlas_utils atlas.launch
 
-    '''For drcsim < 1.3.0''': The package and launch file had a different name:
+    **For drcsim < 1.3.0**: The package and launch file had a different name:
 
         # OLDER VERSIONS ONLY
         roslaunch drc_robot_utils drc_robot.launch
@@ -222,9 +222,9 @@ Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will
 
 1. Retrieve the code for ros-gazebo-plugins, osrf-common, sandia-hand, and drcsim
 
-    '''Release tarballs:''' The best place to go for the code is the [http://gazebosim.org/assets/distributions/ distribution archive], which has a source `.tar.bz2` file for each version that has been released.  It's usually best to pick the latest versions of each package from that archive.
+    **Release tarballs:** The best place to go for the code is the [http://gazebosim.org/assets/distributions/ distribution archive], which has a source `.tar.bz2` file for each version that has been released.  It's usually best to pick the latest versions of each package from that archive.
 
-    '''Repository:'''  If you're feeling brave (or if you plan to do development with this software, you can get the latest code from the repositories:
+    **Repository:**  If you're feeling brave (or if you plan to do development with this software, you can get the latest code from the repositories:
 
         git clone https://github.com/ros-simulation/gazebo_ros_pkgs
         hg clone https://bitbucket.org/osrf/osrf-common
