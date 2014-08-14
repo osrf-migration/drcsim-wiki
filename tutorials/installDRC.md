@@ -179,7 +179,7 @@ Here we'll explain how to build drcsim from source. You will need a working inst
                              ros-groovy-compressed-image-transport       \
                              ros-groovy-theora-image-transport           
 
-#### '''Option I:''' Install using a catkin workspace
+#### **Option I:** Install using a catkin workspace
 1. Create the catkin workspace
 Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will be included into the workspace.
 
@@ -218,7 +218,7 @@ Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will
          # Test installation
          roslaunch drcsim_gazebo atlas.launch
 
-#### '''Option II:''' Install to standard system locations
+#### **Option II:** Install to standard system locations
 
 1. Retrieve the code for ros-gazebo-plugins, osrf-common, sandia-hand, and drcsim
 
