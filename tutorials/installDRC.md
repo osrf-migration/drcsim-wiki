@@ -13,7 +13,7 @@ This page explains how to install the DRC Simulator.
 
 If this is your first time installing the simulator, there's some system configuration that you need to do.
 
-1. Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow the [https://help.ubuntu.com/community/Repositories/Ubuntu Ubuntu guide] for instructions on doing this. 
+1. Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow the [Ubuntu guide](https://help.ubuntu.com/community/Repositories/Ubuntu) for instructions on doing this. 
 
 1. Setup your computer to accept software from packages.osrfoundation.org and packages.ros.org (the DRC Simulator uses some parts of ROS).
 
@@ -76,9 +76,9 @@ Now that everything is installed, here's how to run it:
         # OLDER VERSIONS ONLY
         source /usr/share/drcsim-1.2/setup.sh
 
-  If you get "Warning: failed to find Gazebo's setup.sh.  You will need to source it manually.", do as described [https://bitbucket.org/osrf/drcsim/issue/51/drcsim-110-setupsh-wont-load-gazebo-13 here]
+  If you get "Warning: failed to find Gazebo's setup.sh.  You will need to source it manually.", do as described [here](https://bitbucket.org/osrf/drcsim/issue/51/drcsim-110-setupsh-wont-load-gazebo-13)
 
-1. To run the DRC Simulator, try the default [http://ros.org/wiki/roslaunch launch] file:
+1. To run the DRC Simulator, try the default [launch](http://ros.org/wiki/roslaunch) file:
 
         roslaunch drcsim_gazebo atlas.launch
 
@@ -107,14 +107,14 @@ There are several ways of getting a working gazebo installation to use with drcs
 1. Install using apt-get from the osrf repository
 2. Install gazebo from source
 
-Both are very well documented in the [http://gazebosim.org/wiki/Install Gazebo Installation] page.
+Both are very well documented in the [Gazebo Installation](http://gazebosim.org/tutorials?tut=install&cat=get_started) page.
 
 ### Ubuntu and ROS Groovy
 
 Here we'll explain how to build drcsim from source. You will need a working installation of gazebo, explained in the previous section.
 
 
-1. Configure your system to install packages from [http://www.ros.org/wiki/groovy/Installation/Ubuntu ROS groovy].  E.g., on precise:
+1. Configure your system to install packages from [ROS groovy](http://www.ros.org/wiki/groovy/Installation/Ubuntu).  E.g., on precise:
 
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
         wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
@@ -231,7 +231,7 @@ Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will
         hg clone https://bitbucket.org/osrf/sandia-hand
         hg clone https://bitbucket.org/osrf/drcsim
 
-    You'll probably want to be using particular branches of each repository; if you need help on this issue, post to the [http://answers.gazebosim.org/questions/ Q&A forum].
+    You'll probably want to be using particular branches of each repository; if you need help on this issue, post to the [Q&A forum](http://answers.gazebosim.org/questions/).
 
 1. Configure, build, and install osrf-common:
 
@@ -306,7 +306,7 @@ BETA INSTRUCTIONS
 Here we'll explain how to build drcsim from source. You will need a working installation of gazebo, explained in the previous section.
 
 
-1. Configure your system to install packages from [http://www.ros.org/wiki/hydro/Installation/Ubuntu ROS hydro].  E.g., on precise:
+1. Configure your system to install packages from [ROS hydro](http://www.ros.org/wiki/hydro/Installation/Ubuntu).  E.g., on precise:
 
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
         wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
