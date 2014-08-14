@@ -409,6 +409,122 @@ Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will
          # Test installation
          roslaunch drcsim_gazebo atlas.launch
 
+### Ubuntu and ROS Indigo
+
+BETA INSTRUCTIONS
+
+Here we'll explain how to build drcsim from source. You will need a working installation of gazebo, explained in the previous section.
+
+
+1. Configure your system to install packages from [ROS Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu). E.g., on trusty:
+
+        sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+        wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+
+1. Install compile-time prerequisites:
+
+        sudo apt-get update
+
+        # Install osrf-common's dependencies
+        sudo apt-get install -y cmake               \
+                                debhelper           \
+                                ros-indigo-ros      \
+                                ros-indigo-ros-comm
+
+        # Install sandia-hand's dependencies
+        sudo apt-get install -y ros-indigo-xacro        \
+                                ros-indigo-ros          \
+                                ros-indigo-image-common \
+                                ros-indigo-ros-comm     \
+                                ros-indigo-common-msgs  \
+                                libboost-dev            \
+                                avr-libc                \
+                                gcc-avr                 \
+                                libqt4-dev
+
+        # Install gazebo-ros-pkgs
+        sudo apt-get install -y libtinyxml-dev                 \
+                                ros-indigo-opencv2             \
+                                ros-indigo-angles              \
+                                ros-indigo-cv-bridge           \
+                                ros-indigo-driver-base         \
+                                ros-indigo-dynamic-reconfigure \
+                                ros-indigo-geometry-msgs       \
+                                ros-indigo-image-transport     \
+                                ros-indigo-message-generation  \
+                                ros-indigo-nav-msgs            \
+                                ros-indigo-nodelet             \
+                                ros-indigo-pcl-conversions     \
+                                ros-indigo-pcl-ros             \
+                                ros-indigo-polled-camera       \
+                                ros-indigo-rosconsole          \
+                                ros-indigo-rosgraph-msgs       \
+                                ros-indigo-sensor-msgs         \
+                                ros-indigo-trajectory-msgs     \
+                                ros-indigo-urdf                \
+                                ros-indigo-dynamic-reconfigure \
+                                ros-indigo-rosgraph-msgs       \
+                                ros-indigo-tf                  \
+                                ros-indigo-cmake-modules
+
+        # Install drcsim's dependencies
+        sudo apt-get install -y cmake debhelper                          \
+                             ros-indigo-std-msgs ros-hydro-common-msgs  \
+                             ros-indigo-image-common ros-hydro-geometry \
+                             ros-indigo-pr2-controllers                  \
+                             ros-indigo-geometry-experimental            \
+                             ros-indigo-robot-model-visualization        \
+                             ros-indigo-robot-state-publisher            \
+                             ros-indigo-image-pipeline                   \
+                             ros-indigo-image-transport-plugins          \
+                             ros-indigo-compressed-depth-image-transport \
+                             ros-indigo-compressed-image-transport       \
+                             ros-indigo-theora-image-transport           
+
+1. Create the catkin workspace
+Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will be included into the workspace.
+
+         # Setup the workspace
+         mkdir -p /tmp/ws/src
+         cd /tmp/ws/src
+
+         # Download needed software
+         git clone https://github.com/osrf/gazebo_ros_pkgs-current.git
+         hg clone https://bitbucket.org/osrf/osrf-common
+         hg clone https://bitbucket.org/osrf/sandia-hand
+         hg clone https://bitbucket.org/osrf/drcsim
+
+         # Change to the *indigo* branch in gazebo_ros_pkgs
+         cd gazebo_ros_pkgs
+         git checkout origin/fix_build
+         cd ..
+ 
+         # We don't need the gazebo_ros_control package
+         touch gazebo_ros_pkgs-current/gazebo_ros_control/CATKIN_IGNORE
+
+         # Source ros distro's setup.bash
+         source /opt/ros/indigo/setup.bash
+
+         # use CMakeLists.txt from drcsim (replace default caktin toplevel cmake file)
+         cd /tmp/ws/src
+         ln -s drcsim/CMakeLists.txt .
+
+         # Build and install into workspace
+         cd /tmp/ws
+         catkin_make install
+
+2. Run from the catkin workspace
+
+         # Source the setup from workspace
+         source /tmp/ws/install/setup.bash 
+
+         # Source drcsim setup file
+         source /tmp/ws/install/share/drcsim/setup.sh
+
+         # Test installation
+         roslaunch drcsim_gazebo atlas.launch
+
+
 ### Other platforms (TODO)
 
 Please help us by contributing patches and configuration to build from source on your favorite platform!
