@@ -12,15 +12,15 @@ The DRC Simulator is contained within the `drcsim` package.  Follow the [[DRC/In
 
 === Using DRCSim
 
- * [[DRC/UserGuide | DRCSim user guide]]
+ * [[DRC/UserGuide | DRCSim user guide]].
  * Because DRCSim builds upon Gazebo, new DRCSim users should start with the [[Gazebo Tutorials|http://gazebosim.org/tutorials]].  
  * [[/osrf/drcsim/wiki/tutorials/ | DRCSim tutorials]].
 
 === Releases and plans
 
- * [[DRC/Change log | DRCSim change log]]
- * [[DRC/Roadmap|DRCSim roadmap]]
- * [[DRC/ReleaseSchedule|DRCSim Release schedule]]
+ * [[DRC/Change log | DRCSim change log]].
+ * [[DRC/Roadmap|DRCSim roadmap]].
+ * [[DRC/ReleaseSchedule|DRCSim Release schedule]].
 
 === Sensor suite
 
@@ -29,4 +29,4 @@ The DRC Simulator is contained within the `drcsim` package.  Follow the [[DRC/In
 
 === Miscellaneous
 
-* [[DRC/DRCKickoffLaptops|How to prepare a laptop for use at the DRC Kickoff]]
+* [[DRC/DRCKickoffLaptops|How to prepare a laptop for use at the DRC Kickoff]].
