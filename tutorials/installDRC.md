@@ -22,7 +22,7 @@ If this is your first time installing the simulator, there's some system configu
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
         sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu precise main" > /etc/apt/sources.list.d/drc-latest.list'
 
-   **Ubuntu 12.10 (quantal)** (since drcsim-2.2)
+    **Ubuntu 12.10 (quantal)** (since drcsim-2.2)
 
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu quantal main" > /etc/apt/sources.list.d/ros-latest.list'
         sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu quantal main" > /etc/apt/sources.list.d/drc-latest.list'
@@ -38,13 +38,13 @@ If this is your first time installing the simulator, there's some system configu
 
 1. Install drcsim package:
 
-  A. In the case of using Ubuntu/Precise, choose between ROS/Groovy or ROS/Hydro:
+    A. In the case of using Ubuntu/Precise, choose between ROS/Groovy or ROS/Hydro:
 
         sudo apt-get install drcsim-groovy
         ... or ...
         sudo apt-get install drcsim-hydro
 
-  B. In the case of using Ubuntu/Quantal or Ubuntu/Raring use just drcsim package name:
+    B. In the case of using Ubuntu/Quantal or Ubuntu/Raring use just drcsim package name:
 
         sudo apt-get install drcsim
 
@@ -76,7 +76,7 @@ Now that everything is installed, here's how to run it:
         # OLDER VERSIONS ONLY
         source /usr/share/drcsim-1.2/setup.sh
 
-  If you get "Warning: failed to find Gazebo's setup.sh.  You will need to source it manually.", do as described [here](https://bitbucket.org/osrf/drcsim/issue/51/drcsim-110-setupsh-wont-load-gazebo-13)
+    If you get "Warning: failed to find Gazebo's setup.sh.  You will need to source it manually.", do as described [here](https://bitbucket.org/osrf/drcsim/issue/51/drcsim-110-setupsh-wont-load-gazebo-13)
 
 1. To run the DRC Simulator, try the default [launch](http://ros.org/wiki/roslaunch) file:
 
@@ -222,7 +222,7 @@ Default branches of ros gazebo plugins, osrf-common, sandia-hand and drcsim will
 
 1. Retrieve the code for ros-gazebo-plugins, osrf-common, sandia-hand, and drcsim
 
-    **Release tarballs:** The best place to go for the code is the [http://gazebosim.org/assets/distributions/ distribution archive], which has a source `.tar.bz2` file for each version that has been released.  It's usually best to pick the latest versions of each package from that archive.
+    **Release tarballs:** The best place to go for the code is the [distribution archive](http://gazebosim.org/assets/distributions/), which has a source `.tar.bz2` file for each version that has been released.  It's usually best to pick the latest versions of each package from that archive.
 
     **Repository:**  If you're feeling brave (or if you plan to do development with this software, you can get the latest code from the repositories:
 
