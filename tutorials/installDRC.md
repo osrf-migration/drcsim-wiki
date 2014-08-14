@@ -22,10 +22,10 @@ If this is your first time installing the simulator, there's some system configu
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
         sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu precise main" > /etc/apt/sources.list.d/drc-latest.list'
 
-    **Ubuntu 12.10 (quantal)** (since drcsim-2.2)
+    **Ubuntu 14.04 (trusty)** (since drcsim-4.0)
 
-        sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu quantal main" > /etc/apt/sources.list.d/ros-latest.list'
-        sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu quantal main" > /etc/apt/sources.list.d/drc-latest.list'
+        sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+        sudo sh -c 'echo "deb http://packages.osrfoundation.org/drc/ubuntu trusty main" > /etc/apt/sources.list.d/drc-latest.list'
 
 1. Retrieve and install the keys for the ROS and DRC repositories.
 
@@ -44,7 +44,7 @@ If this is your first time installing the simulator, there's some system configu
         ... or ...
         sudo apt-get install drcsim-hydro
 
-    B. In the case of using Ubuntu/Quantal or Ubuntu/Raring use just drcsim package name:
+    B. In the case of using Ubuntu/Trusty use just drcsim package name:
 
         sudo apt-get install drcsim
 
@@ -104,7 +104,7 @@ Compiling from source
 ### Prerequisite: Install Gazebo
 There are several ways of getting a working gazebo installation to use with drcsim from source installation:
 
-1. Install using apt-get from the osrf repository
+1. Install using apt-get from the OSRF repository
 2. Install gazebo from source
 
 Both are very well documented in the [Gazebo Installation](http://gazebosim.org/tutorials?tut=install&cat=get_started) page.
