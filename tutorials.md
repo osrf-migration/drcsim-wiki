@@ -1,7 +1,7 @@
 Gazebo and DRC simulator setup
 ===
 
-* [[InstallDRC|Source and binary installation guide]].
+* [Source and binary installation guide](/osrf/drcsim/wiki/tutorials/installDRC/).
 
 DRC Simulator 2.7.x tutorials
 ===
