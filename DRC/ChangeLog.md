@@ -1,4 +1,4 @@
-See also [[DRC/Roadmap | DRCSim roadmap]].
+See also [Roadmap](https://bitbucket.org/osrf/drcsim/wiki/DRC/Roadmap).
 
 # drcsim 3.2.x
 
