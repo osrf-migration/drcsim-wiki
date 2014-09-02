@@ -1,4 +1,4 @@
-See also [[DRC/Change log | DRCSim changelog]].
+See also [Change Log](https://bitbucket.org/osrf/drcsim/wiki/DRC/ChangeLog).
 
 Future changes expected:
 
