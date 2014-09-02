@@ -18,7 +18,7 @@ The DRC Simulator is contained within the `drcsim` package.  Follow the [[DRC/In
 
 === Releases and plans
 
- * [[DRC/Change log | DRCSim change log]].
+ * [[DRC/ChangeLog | DRCSim change log]].
  * [[DRC/Roadmap|DRCSim roadmap]].
  * [[DRC/ReleaseSchedule|DRCSim Release schedule]].
 
