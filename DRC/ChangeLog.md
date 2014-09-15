@@ -2,7 +2,7 @@ See also [Roadmap](https://bitbucket.org/osrf/drcsim/wiki/DRC/Roadmap).
 
 # drcsim 4.0.x
 
-Works with Gazebo 3.0.x.
+Works with Gazebo >= 3.0.x.
 
 ## drcsim 4.0.0 (2014-09-03)
 
