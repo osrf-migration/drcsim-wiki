@@ -28,6 +28,8 @@ Works with Gazebo 3.0.x.
 * DRCSim Tutorials:
     * [Tutorials migrated to new location](http://gazebosim.org/tutorials?cat=drcsim).
 
+* Debian distributions moved to [new server](http://old.gazebosim.org/assets/distributions/).
+
 # drcsim 3.2.x
 
 Works with
