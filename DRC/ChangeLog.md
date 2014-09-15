@@ -6,6 +6,8 @@ Works with Gazebo 3.0.x.
 
 ## drcsim 4.0.0 (2014-09-03)
 
+* Platform and ROS version support: DRCSim 4.0.0 works with Ubuntu Precise and ROS Hydro, or with Ubuntu Trusty and ROS Indigo.
+
 * Atlas V3 Behavior Controller (AtlasSimInterface)
     * AtlasSimInterface 1.1.1 is still installed as `[install prefix]/[system library path]/libAtlasSimInterface.so`.  While AtlasSimInterface 2.10.2 candidate installed as `libAtlasSimInterface2.so`.
     * Updated [AtlasV3Plugin](https://bitbucket.org/osrf/drcsim/src/1d087e37896a80b592f2431c87f21c72c658d50b/drcsim_gazebo_ros_plugins/src/AtlasV3Plugin.cpp?at=drcsim_4.0.0) to work with installed `libAtlasSimInterface2.so` (AtlasSimInterface 2.10.2) library.  DRCSim now ships with a `libAtlasSimInterface2.so` shim library.  The official BDI AtlasSimInterface 2.10.2 library is still under development. [Here are Atlas v3 model instructions to drop the official BDI proprietary AtlasSimInterface 2.10.2 binary in place once it's ready](http://gazebosim.org/tutorials?tut=drcsim_install&cat=drcsim#AtlasSimulationInterface2.10.2).
