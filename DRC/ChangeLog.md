@@ -4,7 +4,7 @@ See also [Roadmap](https://bitbucket.org/osrf/drcsim/wiki/DRC/Roadmap).
 
 Works with Gazebo 3.0.x.
 
-## drcsim 4.0.0
+## drcsim 4.0.0 (2014-09-03)
 
 * Atlas V3 Behavior Controller (AtlasSimInterface)
     * AtlasSimInterface 1.1.1 is still installed as `[install prefix]/[system library path]/libAtlasSimInterface.so`.  While AtlasSimInterface 2.10.2 candidate installed as `libAtlasSimInterface2.so`.
