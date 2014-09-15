@@ -8,7 +8,9 @@ Works with Gazebo 3.0.x.
 
 ## drcsim 4.0.0
 
-* Updated to work with AtlasSimInterface 2.10.2 library.  DRCSim now ships with a placeholder shim library.  The official BDI library does not work yet, and is still being debugged, but [one can now drop the binary in place once it's ready](http://gazebosim.org/tutorials?tut=drcsim_install&cat=drcsim#AtlasSimulationInterface2.10.2).  
+* AtlasSimInterface
+    * AtlasSimInterface 1.1.1 is installed as `libAtlasSimInterface.so.1.1.1`.  AtlasSimInterface 2.10.2 candidate installed as `libAtlasSimInterface2.so`.
+    * Updated to work with AtlasSimInterface 2.10.2 library.  DRCSim now ships with a placeholder shim library.  The official BDI library does not work yet, and is still being debugged, but [one can now drop the binary in place once it's ready](http://gazebosim.org/tutorials?tut=drcsim_install&cat=drcsim#AtlasSimulationInterface2.10.2).
 
 * Update iRobot hand model and add a simulated gazebo plugin controller.  Fix iRobot hand orientation, publish joint transforms for rviz ([issue #398](https://bitbucket.org/osrf/drcsim/issue/398/update_irobot_hand-left-hand-rotate-180deg), [pull request #431](https://bitbucket.org/osrf/drcsim/pull-request/431/make-irobot-hand-publish-joint-transforms/diff)).
 
