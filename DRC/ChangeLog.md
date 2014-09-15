@@ -39,7 +39,7 @@ Works with
   * sandia-hand 5.2.0+
   * osrf-common-1.1.0+
 
-## drcsim 3.2.0
+## drcsim 3.2.0 (2014-04-17)
 * fix [issue #369](https://bitbucket.org/osrf/drcsim/issue/369/vrcscoringplugin-cant-find-atlas-with-new), [testing deferred load for scoring plugin](https://bitbucket.org/osrf/drcsim/pull-request/437/testing-deferred-load-for-scoring-plugin).
 * fix [issue #385](https://bitbucket.org/osrf/drcsim/issue/385/teleop-walk-mode-based-on), [add fake behavior support](https://bitbucket.org/osrf/drcsim/pull-request/417/add-fake-behavior-support-385).
 * fix [issue #350](https://bitbucket.org/osrf/drcsim/issue/350/behavior-enums-for) by [matching up behavior enums in ROS msg files and `AtlasSimInterface` headers](https://bitbucket.org/osrf/drcsim/pull-request/421/match-up-behavior-enums-350/diff)
