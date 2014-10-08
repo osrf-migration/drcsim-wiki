@@ -17,7 +17,7 @@ Works with Gazebo 3.0.x and 4.0.x
  * RobotiQ S model added
     * Added new RobotiQ hand.
     * 3-Finger model.
-    * Reuse controller messages from [robotiq_s_model_control](http://github.org/ros-industrial/robotiq_s_model_control).
+    * Reuse controller messages from [robotiq_s_model_control](https://github.com/evenator/swri-ros-pkg/tree/master/robotiq/robotiq_s_model_control).
     * Modes of operation supported:
         * Simplified control mode.
         * Emergency auto-release.
