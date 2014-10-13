@@ -23,7 +23,7 @@ Works with Gazebo 3.0.x and 4.0.x
         * Emergency auto-release.
         * Individual Control of Fingers.
 * DRC Final Tasks
-    * Updated works per DRC trials specifications (link to pdf).
+    * Updated works per DRC trials specifications ([link to pdf](http://archive.darpa.mil/roboticschallengetrialsarchive/sites/default/files/DRC%20Trials%20Task%20Description%20Release%2011%20DISTAR%2022197.pdf)).
     * Green, yellow, orange and red tape has been added in all of the trial worlds to delineate sub-tasks.
     * The obstacle course in Task 1 is complete. However, the robot does not start in the vehicle, as specified in the document.
     * Task 2 features new terrain segments: a level staircase formation of cinderblocks and an angled staircase formation.
