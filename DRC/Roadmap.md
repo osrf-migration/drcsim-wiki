@@ -10,7 +10,7 @@ Works with Gazebo 3.0.x and 4.0.x
 ## drcsim 4.1.0 (Forthcoming)
 
  * Prerelease 4.1.6 in for testing 10-17-2015
- * Estimated Release Date 10-21-2015
+ * Estimated Release Date 10-23-2015
 
 * Atlas V4 model
     * Should match the model after Nov 15, 2014 ~ Jan 1, 2015 upgrade.
