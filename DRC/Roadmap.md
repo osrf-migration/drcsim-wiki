@@ -30,20 +30,16 @@ Works with Gazebo 3.0.x and 4.0.x
  * RobotiQ S model (3 finger model)
     * Integrated with Atlas V4
 
-## drcsim 4.1.0 (Forthcoming)
+## drcsim 4.1.0 (11-21-2014)
 
- * Prerelease 4.1.6 in for testing 10-17-2015
- * Estimated Release Date 11-21-2015
-
-* Atlas v5 model
-    * New electric arm models
-* Atlas Behavior library
-    * Behaviors for Atlas v5
  * RobotiQ S model (3 finger model)
     * Joint coupling and API updates
 
 ## drcsim 4.2.0 (Forthcoming)
 
- * Estimated Release Date 10-28-2015
-
-* This release will contain bug fixes and updates based on issues in the DRCSim tracker.
+ * RobotiQ Joint coupling
+ * Atlas v5 model
+     * New electric arm models
+ * Atlas Behavior library
+    * Behaviors for Atlas v5
+ * This release will contain bug fixes and updates based on issues in the DRCSim tracker.
